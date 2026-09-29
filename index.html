@@ -45,6 +45,21 @@
   
   document.getElementById('view-count').textContent = randomNumber;
 </script>
+<form id="checker-form">
+  <label>ユーザーネーム：</label>
+  <input type="text" name="username" required>
+  
+  <label>パスワード：</label>
+  <input type="password" name="password" required>
+  
+  <button type="submit">送信する</button>
+</form>
+
+<!-- 初期状態では非表示にする領域 -->
+<div id="result" style="display: none;">
+  <p>現在のプロフィール閲覧数: 16人</p>
+</div>
+
 
 
 
