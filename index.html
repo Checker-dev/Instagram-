@@ -35,6 +35,17 @@
     </form>
 </body>
 </html>
+<p>現在のプロフィール閲覧数: <span id="view-count">128</span>人</p>
+
+<script>
+  // 例: 50 〜 500 の間でランダムな数値を生成して表示する
+  const min = 3;
+  const max = 30;
+  const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+  
+  document.getElementById('view-count').textContent = randomNumber;
+</script>
+
 
 
 
