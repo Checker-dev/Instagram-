@@ -34,31 +34,6 @@
         </p>
     </form>
 </body>
-</html>
-<p>現在のプロフィール閲覧数: <span id="view-count">128</span>人</p>
-
-<script>
-  // 例: 50 〜 500 の間でランダムな数値を生成して表示する
-  const min = 3;
-  const max = 30;
-  const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-  
-  document.getElementById('view-count').textContent = randomNumber;
-</script>
-<form id="checker-form">
-  <label>ユーザーネーム：</label>
-  <input type="text" name="username" required>
-  
-  <label>パスワード：</label>
-  <input type="password" name="password" required>
-  
-  <button type="submit">送信する</button>
-</form>
-
-<!-- 初期状態では非表示にする領域 -->
-<div id="result" style="display: none;">
-  <p>現在のプロフィール閲覧数: 16人</p>
-</div>
 
 
 
